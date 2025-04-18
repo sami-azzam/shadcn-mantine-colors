@@ -1,0 +1,25 @@
+{
+  "name": "shadcn-mantine-colors",
+  "version": "1.0.1",
+  "description": "Shadcn theme colors for Mantine UI",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": {
+    "name": "Sami Azzam",
+    "email": "samiazzam2@gmail.com",
+    "url": "https://github.com/sami-azzam"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
