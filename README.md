@@ -1,7 +1,7 @@
 [Shadcn](https://github.com/shadcn-ui) Theme colors for Mantine UI.
 
 # How to Use
-```ts
+```jsx
 import colors from "shadcn-mantine-colors"; //OKLCH format
 import { MantineProvider, createTheme } from '@mantine/core';
 
@@ -20,6 +20,6 @@ function App() {
 
 You can also import other formats:
 
-```ts
+```jsx
 import {colorsRGB, colorsHSL, colorsHEX} from "shadcn-mantine-colors";
 ```
