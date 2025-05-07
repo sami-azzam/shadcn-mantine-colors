@@ -12,6 +12,9 @@ type MantineColorsTuple = readonly [
   ...string[]
 ];
 
+/**
+ * CAUTION: Mantine doesn't seem to support OKLCH yet. Use `colorsHEX` or `colorsRGB` instead.
+ */
 export const colorsOKLCH: Record<string, MantineColorsTuple> = {
   slate: [
     "oklch(0.98,0.00,248)",
@@ -1080,4 +1083,4 @@ export const colorsHEX: Record<string, MantineColorsTuple> = {
   ],
 } as const;
 
-export default colorsOKLCH;
+export default colorsRGB;

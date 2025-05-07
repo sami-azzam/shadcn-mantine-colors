@@ -1,6 +1,6 @@
 {
   "name": "shadcn-mantine-colors",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shadcn theme colors for Mantine UI",
   "repository": "github:sami-azzam/shadcn-mantine-colors",
   "main": "./dist/index.js",
